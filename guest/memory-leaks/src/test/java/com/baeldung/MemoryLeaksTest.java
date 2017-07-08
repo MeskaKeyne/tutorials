@@ -54,7 +54,7 @@
 //    }
 //
 //    @SuppressWarnings({ "resource" })
-//    @Test(expected = OutOfMemoryError.class)
+//    @Test
 //    public void givenLengthString_whenIntern_thenOutOfMemory() throws IOException, InterruptedException {
 //        Thread.sleep(15000);
 //        String str = new Scanner(new File("src/test/resources/large.txt"), "UTF-8").useDelimiter("\\A")
